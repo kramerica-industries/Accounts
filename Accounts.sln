@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounts.Web", "Accounts.Web\Accounts.Web.csproj", "{9179CA07-A6B6-4F8C-8722-125C33E9EDCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounts.BLL", "Accounts.BLL\Accounts.BLL.csproj", "{35FC1792-AF5C-478A-B042-D76B80732907}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounts.Tests", "Accounts.Tests\Accounts.Tests.csproj", "{DC8C02F6-9788-4A3A-AE47-8BAA9CD40AE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9179CA07-A6B6-4F8C-8722-125C33E9EDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9179CA07-A6B6-4F8C-8722-125C33E9EDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9179CA07-A6B6-4F8C-8722-125C33E9EDCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9179CA07-A6B6-4F8C-8722-125C33E9EDCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35FC1792-AF5C-478A-B042-D76B80732907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FC1792-AF5C-478A-B042-D76B80732907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FC1792-AF5C-478A-B042-D76B80732907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FC1792-AF5C-478A-B042-D76B80732907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8C02F6-9788-4A3A-AE47-8BAA9CD40AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8C02F6-9788-4A3A-AE47-8BAA9CD40AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8C02F6-9788-4A3A-AE47-8BAA9CD40AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8C02F6-9788-4A3A-AE47-8BAA9CD40AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
