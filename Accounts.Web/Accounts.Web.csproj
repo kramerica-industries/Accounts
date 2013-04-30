@@ -80,7 +80,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BusinessLayer\Accounts.BLL.csproj">
+    <ProjectReference Include="..\Accounts.BLL\Accounts.BLL.csproj">
       <Project>{35FC1792-AF5C-478A-B042-D76B80732907}</Project>
       <Name>Accounts.BLL</Name>
     </ProjectReference>
