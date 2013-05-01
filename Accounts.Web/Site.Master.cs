@@ -1,7 +1,7 @@
 ﻿using System;
-using System.IO;
 using System.Web.Configuration;
 using System.Web.UI;
+using Accounts.BLL;
 
 namespace Accounts.Web
 {
@@ -13,7 +13,7 @@ namespace Accounts.Web
 
             try
             {
-                litVersion.Text = File.ReadAllText(Server.MapPath("~/version.info"));
+                litVersion.Text = typeof(AccountingCalculator).Assembly.GetName().Version.ToString();
             }
             catch { }
         }
