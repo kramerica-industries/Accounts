@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Web.UI;
 using Accounts.BLL;
 
@@ -17,6 +18,7 @@ namespace Accounts.Web
                 decimal net = calculator.CalculateNet(revenue, expenses);
 
                 litNet.Text = net.ToString("C");
+
                 pnlError.Visible = false;
             }
             catch
