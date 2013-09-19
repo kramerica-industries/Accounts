@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounts.Web", "Accounts.Web\Accounts.Web.csproj", "{9179CA07-A6B6-4F8C-8722-125C33E9EDCC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Accounts.BLL", "Accounts.BLL\Accounts.BLL.csproj", "{35FC1792-AF5C-478A-B042-D76B80732907}"

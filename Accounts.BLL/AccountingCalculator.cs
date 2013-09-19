@@ -19,7 +19,15 @@ namespace Accounts.BLL
             if (expenses < 0)
                 throw new ArgumentOutOfRangeException("expenses");
 
-            return revenue * expenses;
+            return revenue - expenses;
+        }
+
+        public decimal CalculateOER(decimal revenue, decimal expenses)
+        {
+            if (revenue == 0)
+                throw new InvalidOperationException("No revenue? That's bad!");
+            else
+                return expenses / revenue;
         }
     }
 }
