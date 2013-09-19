@@ -22,6 +22,17 @@ namespace Accounts.Web
                 decimal oer = calculator.CalculateOER(revenue, expenses);
                 litOer.Text = oer.ToString("P2");
 
+                var maxOer = Convert.ToDecimal(ConfigurationManager.AppSettings["MaxAcceptableOER"]);
+
+                if (oer > maxOer)
+                {
+                    litOer.CssClass = "badOer";
+                }
+                else
+                {
+                    litOer.CssClass = "goodOer";
+                }
+
                 pnlError.Visible = false;
             }
             catch

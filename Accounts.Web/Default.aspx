@@ -25,7 +25,7 @@
                             <tr>
                                 <td>OER</td>
                                 <td>
-                                    <asp:Literal runat="server" ID="litOer" /></td>
+                                    <asp:Label runat="server" ID="litOer" /></td>
                             </tr>
                         </tbody>
                     </table>

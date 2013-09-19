@@ -30,6 +30,8 @@ Description: A two-column fixed-width template suitable for small websites.
     #value {background-color: #80b3d5;}
     #version {background-color: #d77d80;}
     .error { color: #A00; text-align: left; background-color: #FEE; border: 2px solid #A00; padding: 15px; text-align: center; margin: 5px 0; border-radius: 10px; }
+    .badOer { color: #fff; background-color: #c44b4b; }
+    .goodOer { color: #fff; background-color: #a5cf35; }
 </style>
 <asp:ContentPlaceHolder runat="server" ID="HeadContent"></asp:ContentPlaceHolder>
 
