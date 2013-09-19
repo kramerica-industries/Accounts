@@ -11,9 +11,9 @@ namespace Accounts.Tests
         public void CalculateProfit()
         {
             IAccountingCalculator calc = new AccountingCalculator();
-            decimal net = calc.CalculateNet(1000m, 1000m);
+            decimal net = calc.CalculateNet(1000m, 750m);
 
-            Assert.AreEqual(1000000m, net);
+            Assert.AreEqual(250m, net);
         }
 
         [TestMethod]
