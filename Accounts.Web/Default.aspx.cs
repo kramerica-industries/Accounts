@@ -19,6 +19,9 @@ namespace Accounts.Web
 
                 litNet.Text = net.ToString("C");
 
+                decimal oer = calculator.CalculateOER(revenue, expenses);
+                litOer.Text = oer.ToString("P2");
+
                 pnlError.Visible = false;
             }
             catch

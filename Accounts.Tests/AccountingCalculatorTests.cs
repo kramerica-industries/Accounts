@@ -31,5 +31,22 @@ namespace Accounts.Tests
             IAccountingCalculator calc = new AccountingCalculator();
             decimal net = calc.CalculateNet(1000m, -1000m);
         }
+
+        [TestMethod]
+        public void CalculateOER()
+        {
+            IAccountingCalculator calc = new AccountingCalculator();
+            decimal net = calc.CalculateOER(1000m, 500m);
+
+            Assert.AreEqual(0.5m, net);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(InvalidOperationException))]
+        public void ZeroRevenueWhenCalculatingOER()
+        {
+            IAccountingCalculator calc = new AccountingCalculator();
+            decimal net = calc.CalculateOER(0m, 1000m);
+        }
     }
 }
