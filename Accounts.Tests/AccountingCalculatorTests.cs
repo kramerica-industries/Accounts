@@ -1,22 +1,22 @@
 ﻿using System;
 using Accounts.BLL;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 
 namespace Accounts.Tests
 {
-    [TestClass]
+    [TestFixture]
     public class AccountingCalculatorTests
     {
-        [TestMethod]
+        [Test]
         public void CalculateProfit()
         {
             IAccountingCalculator calc = new AccountingCalculator();
             decimal net = calc.CalculateNet(1000m, 1000m);
 
-            Assert.AreEqual(1000000m, net);
+            Assert.AreEqual(0m, net);
         }
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void NegativeRevenue()
         {
@@ -24,7 +24,7 @@ namespace Accounts.Tests
             decimal net = calc.CalculateNet(-1000m, 1000m);
         }
 
-        [TestMethod]
+        [Test]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void NegativeExpenses()
         {
