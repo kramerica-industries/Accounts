@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Accounts.Web.SiteMaster" %>
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Accounts.Web.SiteMaster" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by Free CSS Templates
@@ -12,14 +12,14 @@ Description: A two-column fixed-width template suitable for small websites.
 
 --> 
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+<head runat="server">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <title>Accounts - BuildMaster Demo</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 
-<link href="/resources/styles/default.css" rel="stylesheet" type="text/css" />
-<link href="/resources/styles/main.css" rel="stylesheet" type="text/css" />
+<link href="~/resources/styles/default.css" rel="stylesheet" type="text/css" />
+<link href="~/resources/styles/main.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
     input {font-size: 1em;}
@@ -64,7 +64,7 @@ Description: A two-column fixed-width template suitable for small websites.
 				</div>
 				<div class="post">
 					<div class="entry">
-						<p><img src="/resources/images/calc.jpg" alt="" width="564" height="294" /></p>
+						<p><asp:image runat="server" imageurl="~/resources/images/calc.jpg" alt="" width="564" height="294" /></p>
 					</div>
 				</div>
 			</div>
@@ -105,4 +105,3 @@ Description: A two-column fixed-width template suitable for small websites.
 </form>
 </body>
 </html>
-
