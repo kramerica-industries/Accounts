@@ -19,7 +19,7 @@
                                 <td><asp:TextBox ID="txtExpenses" runat="server" Width="200" /></td>
                             </tr>
                             <tr>
-                                <td>Net</td>
+                                <td>Net Profit</td>
                                 <td><asp:Literal runat="server" ID="litNet" /></td>
                             </tr>
                         </tbody>
