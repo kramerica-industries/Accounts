@@ -1,4 +1,4 @@
-<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Accounts.Web.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Accounts.Web.SiteMaster" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by Free CSS Templates
@@ -14,7 +14,7 @@ Description: A two-column fixed-width template suitable for small websites.
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>Accounts - BuildMaster Demo</title>
+<title>Accounts - Inedo Suite Demo</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 
@@ -40,7 +40,7 @@ Description: A two-column fixed-width template suitable for small websites.
 	<div id="header">
 		<div id="logo">
 			<h1><a href="#">Accounts</a></h1>
-			<h2>A BuildMaster Demo</h2>
+			<h2>An Inedo Suite Demo</h2>
 		</div>
 		<!-- end div#logo -->
 		<div id="menu">
